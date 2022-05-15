@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">       
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Character Select
+            </h1>            
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/naruto.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Naruto</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="naruto" data-name="Naruto">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/naruto.jpg" alt="Personagem Naruto">
+                </li>
+
+                <li class="personagem" id="sasuke" data-name="Sasuke">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/sasuke.jpg" alt="Personagem Sasuke">
+                </li>
+
+                <li class="personagem" id="kakashi" data-name="Kakashi">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/kakashi.jpg" alt="Personagem Kakashi">
+                </li>
+
+                <li class="personagem" id="jiraya" data-name="Jiraya">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/jiraya.jpg" alt="Personagem Jiraya">
+                </li>
+
+                <li class="personagem" id="gai" data-name="Gai">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/gai.jpg" alt="Personagem Gai">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="pain" data-name="Pain">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/pain.jpg" alt="Personagem Pain">
+                </li>
+
+                <li class="personagem" id="bee" data-name="Bee">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/bee.jpg" alt="Personagem Bee">
+                </li>
+
+                <li class="personagem" id="gaara" data-name="Gaara">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/gaara.jpg" alt="Personagem Gaara">
+                </li>
+
+                <li class="personagem" id="minato" data-name="Minato">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/minato.jpg" alt="Personagem Minato">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/pain.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Pain</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
